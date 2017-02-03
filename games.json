@@ -1,0 +1,87 @@
+{
+  "space-rocket-up": {
+    "id": 20150701,
+    "name": "Space Rocket: UP",
+    "tagline": "Fly higher, score higher!",
+    "shortDescription": "Fly UP, collect coins and blast your way though walls in this entry to Indies VS Gamers.",
+    "type": "jam",
+    "buttonText": "Play on Game Jolt",
+    "buttonLink": "http://gamejolt.com/games/space-rocket-up/80051",
+    "imagePath": "space-rocket-up.png"
+  },
+  "circle-shooter": {
+    "id": 20150401,
+    "name": "Circle Shooter",
+    "tagline": "Shoot circles, avoid circles",
+    "shortDescription": "Shoot circles, avoid circles, be better than your circles, uh, friends!",
+    "type": "full",
+    "buttonText": "Play on Game Jolt",
+    "buttonLink": "http://gamejolt.com/games/circle-shooter/78290",
+    "imagePath": "circle-shooter.png",
+    "buttonActions": [
+      {
+        "name": "Get on it Google Play",
+        "link": "https://play.google.com/store/apps/details?id=dk.mechagk.circleshooter"
+      },
+      {
+        "name": "Get on it Windows Store",
+        "link": "http://apps.microsoft.com/windows/app/b5827c75-65b2-4938-b53f-1b17a9161bda"
+      },
+      {
+        "name": "Get on it Windows Phone Store",
+        "link": "http://windowsphone.com/s?appid=7885c35f-f3a6-4b95-8108-459afa68a74b"
+      }
+    ]
+  },
+  "banana-clicker": {
+    "id": 20131101,
+    "name": "Banana Clicker",
+    "tagline": "Click the bananas!",
+    "shortDescription": "Made for 0 hour game jam 2013. Click the bananas!",
+    "type": "jam",
+    "buttonText": "Play on Kongregate",
+    "buttonLink": "",
+    "imagePath": "banana-clicker.png",
+    "pagePath": "#"
+  },
+  "knight-time": {
+    "id": 20130801,
+    "name": "Knight Time",
+    "tagline": "10 seconds to run right",
+    "shortDescription": "Made for Ludum Dare 27 with the theme '10 Seconds'. Run to the right side while hitting stuff",
+    "buttonText": "View Ludum Dare page",
+    "buttonLink": "",
+    "imagePath": "knight-time.png",
+    "pagePath": "#"
+  },
+  "shape-attack": {
+    "id": 20130401,
+    "name": "Shape Attack",
+    "tagline": "Shoot shapes, become shape!",
+    "shortDescription": "Made for Ludum Dare 26 with the theme 'Minimalism'. Be shapes shooting shapes with a green laser",
+    "buttonText": "View Ludum Dare page",
+    "buttonLink": "",
+    "imagePath": "shape-attack.png",
+    "pagePath": "#"
+  },
+  "my-evil-lair": {
+    "id": 20121201,
+    "name": "My Evil Lair",
+    "tagline": "Protect the left side from white squares!",
+    "shortDescription": "Made for Ludum Dare 25 with the theme 'You are the Villain'. Protect the left side from the boxes!",
+    "buttonText": "View Ludum Dare page",
+    "buttonLink": "",
+    "imagePath": "my-evil-lair.png",
+    "pagePath": "#"
+  },
+  "league-of-fish": {
+    "id": 20120801,
+    "name": "League of Fish",
+    "tagline": "Eat stuff",
+    "shortDescription": "Made for Ludum Dare 24 with the theme 'Evolution'. 'Spore inspired' eat things sim",
+    "buttonText": "View Ludum Dare page",
+    "buttonLink": "",
+    "imagePath": "league-of-fish.png",
+    "pagePath": "#"
+  }
+}

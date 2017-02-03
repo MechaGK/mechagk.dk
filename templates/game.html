@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}{{ game_data["name"] }}{% endblock %}
+{% block content %}
+    {% if game_data %}
+        <div class="page-header">
+            <h1>{{ game_data["name"] }}
+                <small>{{ game_data["tagline"] }}</small>
+            </h1>
+            <div class="row">
+                <div class="col-md-6">
+                    {% filter markdown %}{{ game_data["description"] }}
+                    {% endfilter %}
+                </div>
+                <div class="col-md-6"><img class="game-image" src="{{ url_for('static', filename=('images/' + game_data['imagePath'])) }}"</div>
+            </div>
+
+        </div>
+    {% else %}
+  <h1>Game not found <small>Return to the <a href="/games">games page</a> or select game below</small></h1>
+  {% endif %}
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Games</h3>
+        </div>
+        <div class="panel-body">
+            <nav>
+                <ul class="pager">
+                    {% for game in games %}
+                        <li {% if game == game_data['shortName'] %}class="active"{% endif %}>
+                            <a href="{{ url_for('games', game=game) }}">{{ games[game]["name"] }}
+                            {% if game == game_data['shortName'] %}<span class="sr-only">(current)</span>{% endif %}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+{% endblock %}
+{% block active_menu %}games{% endblock %}

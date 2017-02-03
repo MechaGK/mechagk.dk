@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-8">
+            <div class="container-fluid">
+                <div class="page-header"><h1>Welcome to my website</h1></div>
+                <p>
+                    A website for games and other stuff. Why not take a look at <a href="{{ url_for('games', game='space-rocket-up') }}">Space Rocket: UP</a>?
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+{% endblock %}
+{% block active_menu %}home{% endblock %}

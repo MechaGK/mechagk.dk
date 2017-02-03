@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/mechagk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mechagk.dk
+  * I am mechagk (https://keybase.io/mechagk) on keybase.
+  * I have a public key ASC9qBlQ1ecX1sVBExRddREdtZcO-P9CqmQDaLgElkowqgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010767b3fe94297c80bb3dd0d8489323a4c5f13b02b59775b9d36bca4a3a91092e0a",
+            "host": "keybase.io",
+            "kid": "0120bda81950d5e717d6c54113145d75111db5970ef8ff42aa640368b804964a30aa0a",
+            "uid": "e14047fae9845007179f3c265e560219",
+            "username": "mechagk"
+        },
+        "service": {
+            "hostname": "mechagk.dk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1480036219,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1480036126,
+        "hash": "4704f751b802da7b986a9513bac2542cafe1276611573819dee69a348cc6cc69bbf86c9c181d909193b46c4bdf1cde093b723fc9921f0eb21416f617b7e3f376",
+        "seqno": 733939
+    },
+    "prev": "363e3fc85b025c3636a5917aedfbfcc50bc6558a568ecd4bc0e98d450f43267b",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvagZUNXnF9bFQRMUXXURHbWXDvj/QqpkA2i4BJZKMKoKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDc2N2IzZmU5NDI5N2M4MGJiM2RkMGQ4NDg5MzIzYTRjNWYxM2IwMmI1OTc3NWI5ZDM2YmNhNGEzYTkxMDkyZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmRhODE5NTBkNWU3MTdkNmM1NDExMzE0NWQ3NTExMWRiNTk3MGVmOGZmNDJhYTY0MDM2OGI4MDQ5NjRhMzBhYTBhIiwidWlkIjoiZTE0MDQ3ZmFlOTg0NTAwNzE3OWYzYzI2NWU1NjAyMTkiLCJ1c2VybmFtZSI6Im1lY2hhZ2sifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1lY2hhZ2suZGsiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDgwMDM2MjE5LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODAwMzYxMjYsImhhc2giOiI0NzA0Zjc1MWI4MDJkYTdiOTg2YTk1MTNiYWMyNTQyY2FmZTEyNzY2MTE1NzM4MTlkZWU2OWEzNDhjYzZjYzY5YmJmODZjOWMxODFkOTA5MTkzYjQ2YzRiZGYxY2RlMDkzYjcyM2ZjOTkyMWYwZWIyMTQxNmY2MTdiN2UzZjM3NiIsInNlcW5vIjo3MzM5Mzl9LCJwcmV2IjoiMzYzZTNmYzg1YjAyNWMzNjM2YTU5MTdhZWRmYmZjYzUwYmM2NTU4YTU2OGVjZDRiYzBlOThkNDUwZjQzMjY3YiIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOjCv7OHYhOL6whqLTDtBnoZiPIF5ATRC7uh8l8ckZwRWwp7rpmUdGG6Fmcq+uK+nY7jqPVHXZLZhPw8PJ8Rjwuoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCD9rHURBxazvbJf92xLKpN7MK14098/ERTb2v0Ya0YnVaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mechagk
+
+==================================================================

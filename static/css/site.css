@@ -1,0 +1,13 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron img {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.game-image {
+    width:100%;
+}
