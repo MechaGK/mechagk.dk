@@ -272,7 +272,7 @@ FileLoader	venv/lib/python3.6/importlib/_bootstrap_external.py	/^class FileLoade
 FileLoader	venv/lib/python3.6/importlib/abc.py	/^class FileLoader(_bootstrap_external.FileLoader, ResourceLoader, ExecutionLoader):$/;"	kind:class	line:276
 Finder	venv/lib/python3.6/importlib/abc.py	/^class Finder(metaclass=abc.ABCMeta):$/;"	kind:class	line:29
 Flag	venv/lib/python3.6/enum.py	/^class Flag(Enum):$/;"	kind:class	line:646
-Flask	site.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:2
+Flask	mechagk_dk.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:2
 Floatnumber	venv/lib/python3.6/tokenize.py	/^Floatnumber = group(Pointfloat, Expfloat)$/;"	kind:variable	line:132
 FrameType	venv/lib/python3.6/types.py	/^    FrameType = type(tb.tb_frame)$/;"	kind:variable	line:46
 FrozenImporter	venv/lib/python3.6/importlib/_bootstrap.py	/^class FrozenImporter:$/;"	kind:class	line:753
@@ -604,6 +604,7 @@ MappingProxyType	venv/lib/python3.6/enum.py	/^from types import MappingProxyType
 MappingProxyType	venv/lib/python3.6/functools.py	/^from types import MappingProxyType$/;"	kind:namespace	line:22
 MappingProxyType	venv/lib/python3.6/types.py	/^MappingProxyType = type(type.__dict__)$/;"	kind:variable	line:15
 MappingView	venv/lib/python3.6/_collections_abc.py	/^class MappingView(Sized):$/;"	kind:class	line:694
+Markdown	mechagk_dk.py	/^from flaskext.markdown import Markdown$/;"	kind:namespace	line:3
 MemberDescriptorType	venv/lib/python3.6/types.py	/^MemberDescriptorType = type(FunctionType.__globals__)$/;"	kind:variable	line:51
 MetaPathFinder	venv/lib/python3.6/importlib/abc.py	/^class MetaPathFinder(Finder):$/;"	kind:class	line:47
 MethodType	venv/lib/python3.6/types.py	/^MethodType = type(_C()._m)$/;"	kind:variable	line:34
@@ -2353,6 +2354,7 @@ abc	venv/lib/python3.6/os.py	/^import abc$/;"	kind:namespace	line:25
 abc.py	venv/lib/python3.6/abc.py	1;"	kind:file	line:1
 abc.py	venv/lib/python3.6/collections/abc.py	1;"	kind:file	line:1
 abc.py	venv/lib/python3.6/importlib/abc.py	1;"	kind:file	line:1
+about	mechagk_dk.py	/^def about():$/;"	kind:function	line:15
 abs	venv/lib/python3.6/operator.py	/^def abs(a):$/;"	kind:function	line:71
 abs__file__	venv/lib/python3.6/site.py	/^def abs__file__():$/;"	kind:function	line:100
 absolute_import	venv/lib/python3.6/__future__.py	/^absolute_import = _Feature((2, 5, 0, "alpha", 1),$/;"	kind:variable	line:118
@@ -2402,7 +2404,8 @@ altsep	venv/lib/python3.6/os.py	/^from os.path import (curdir, pardir, sep, path
 altsep	venv/lib/python3.6/posixpath.py	/^altsep = None$/;"	kind:variable	line:36
 and_	venv/lib/python3.6/operator.py	/^def and_(a, b):$/;"	kind:function	line:79
 any	venv/lib/python3.6/tokenize.py	/^def any(*choices): return group(*choices) + '*'$/;"	kind:function	line:113
-app	site.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
+app	mechagk_dk.py	/^app = Flask(__name__)$/;"	kind:variable	line:5
+app	wsgi.py	/^from mechagk_dk import app$/;"	kind:namespace	line:1
 append	venv/lib/python3.6/_collections_abc.py	/^    def append(self, value):$/;"	kind:member	line:965
 append	venv/lib/python3.6/collections/__init__.py	/^    def append(self, item): self.data.append(item)$/;"	kind:member	line:1078
 append	venv/lib/python3.6/importlib/_bootstrap_external.py	/^    def append(self, item):$/;"	kind:member	line:1008
@@ -3758,6 +3761,7 @@ functools	venv/lib/python3.6/locale.py	/^import functools$/;"	kind:namespace	lin
 functools	venv/lib/python3.6/re.py	/^import functools$/;"	kind:namespace	line:125
 functools.py	venv/lib/python3.6/functools.py	1;"	kind:file	line:1
 fwalk	venv/lib/python3.6/os.py	/^    def fwalk(top=".", topdown=True, onerror=None, *, follow_symlinks=False, dir_fd=None):$/;"	kind:function	line:421
+games	mechagk_dk.py	/^def games(game=None):$/;"	kind:function	line:21
 gammavariate	venv/lib/python3.6/random.py	/^    def gammavariate(self, alpha, beta):$/;"	kind:member	line:498
 gammavariate	venv/lib/python3.6/random.py	/^gammavariate = _inst.gammavariate$/;"	kind:variable	line:757
 gauss	venv/lib/python3.6/random.py	/^    def gauss(self, mu, sigma):$/;"	kind:member	line:570
@@ -4048,7 +4052,7 @@ import_module	venv/lib/python3.6/importlib/__init__.py	/^def import_module(name,
 importlib	venv/lib/python3.6/imp.py	/^        import importlib.machinery$/;"	kind:namespace	line:335
 importlib	venv/lib/python3.6/imp.py	/^import importlib$/;"	kind:namespace	line:24
 imul	venv/lib/python3.6/operator.py	/^def imul(a, b):$/;"	kind:function	line:370
-index	site.py	/^def index():$/;"	kind:function	line:7
+index	mechagk_dk.py	/^def index():$/;"	kind:function	line:10
 index	venv/lib/python3.6/_collections_abc.py	/^    def index(self, value, start=0, stop=None):$/;"	kind:member	line:899
 index	venv/lib/python3.6/collections/__init__.py	/^    def index(self, item, *args): return self.data.index(item, *args)$/;"	kind:member	line:1085
 index	venv/lib/python3.6/collections/__init__.py	/^    def index(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1191
@@ -4173,6 +4177,7 @@ join	venv/lib/python3.6/collections/__init__.py	/^    def join(self, seq): retur
 join	venv/lib/python3.6/ntpath.py	/^def join(path, *paths):$/;"	kind:function	line:74
 join	venv/lib/python3.6/posixpath.py	/^def join(a, *p):$/;"	kind:function	line:73
 joinuser	venv/lib/python3.6/site.py	/^    def joinuser(*args):$/;"	kind:function	line:324
+json	mechagk_dk.py	/^import json$/;"	kind:namespace	line:4
 k	venv/lib/python3.6/locale.py	/^    k = k.replace('_', '')$/;"	kind:variable	line:717
 keyrefs	venv/lib/python3.6/weakref.py	/^    def keyrefs(self):$/;"	kind:member	line:431
 keys	venv/lib/python3.6/_collections_abc.py	/^    def keys(self):$/;"	kind:member	line:672
@@ -4304,6 +4309,7 @@ mbcs	venv/lib/python3.6/encodings/__init__.py	/^                import encodings
 mbcs.py	venv/lib/python3.6/encodings/mbcs.py	1;"	kind:file	line:1
 mbcs_decode	venv/lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode, mbcs_decode$/;"	kind:namespace	line:12
 mbcs_encode	venv/lib/python3.6/encodings/mbcs.py	/^from codecs import mbcs_encode, mbcs_decode$/;"	kind:namespace	line:12
+mechagk_dk.py	mechagk_dk.py	1;"	kind:file	line:1
 merge	venv/lib/python3.6/heapq.py	/^def merge(*iterables, key=None, reverse=False):$/;"	kind:function	line:314
 methodcaller	venv/lib/python3.6/operator.py	/^class methodcaller:$/;"	kind:class	line:296
 mkdtemp	venv/lib/python3.6/tempfile.py	/^def mkdtemp(suffix=None, prefix=None, dir=None):$/;"	kind:function	line:345
@@ -4570,7 +4576,7 @@ remove_extension	venv/lib/python3.6/copyreg.py	/^def remove_extension(module, na
 removedirs	venv/lib/python3.6/os.py	/^def removedirs(name):$/;"	kind:function	line:227
 removeduppaths	venv/lib/python3.6/site.py	/^def removeduppaths():$/;"	kind:function	line:113
 renames	venv/lib/python3.6/os.py	/^def renames(old, new):$/;"	kind:function	line:249
-render_template	site.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:2
+render_template	mechagk_dk.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:2
 repeat	venv/lib/python3.6/tokenize.py	/^    from itertools import chain, repeat$/;"	kind:namespace	line:485
 replace	venv/lib/python3.6/collections/__init__.py	/^    def replace(self, old, new, maxsplit=-1):$/;"	kind:member	line:1212
 replace_errors	venv/lib/python3.6/codecs.py	/^    replace_errors = None$/;"	kind:variable	line:1092
@@ -4713,7 +4719,6 @@ simplefilter	venv/lib/python3.6/warnings.py	/^def simplefilter(action, category=
 single_quoted	venv/lib/python3.6/tokenize.py	/^single_quoted = set()$/;"	kind:variable	line:207
 singledispatch	venv/lib/python3.6/functools.py	/^def singledispatch(func):$/;"	kind:function	line:748
 site	venv/bin/activate_this.py	/^import site$/;"	kind:namespace	line:24
-site.py	site.py	1;"	kind:file	line:1
 site.py	venv/lib/python3.6/site.py	1;"	kind:file	line:1
 site_packages	venv/bin/activate_this.py	/^    site_packages = os.path.join(base, 'Lib', 'site-packages')$/;"	kind:variable	line:20
 site_packages	venv/bin/activate_this.py	/^    site_packages = os.path.join(base, 'lib', 'python%s' % sys.version[:3], 'site-packages')$/;"	kind:variable	line:22
@@ -5005,6 +5010,7 @@ writelines	venv/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	ki
 writelines	venv/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:720
 writelines	venv/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:836
 writelines	venv/lib/python3.6/tempfile.py	/^    def writelines(self, iterable):$/;"	kind:member	line:770
+wsgi.py	wsgi.py	1;"	kind:file	line:1
 xmlcharrefreplace_errors	venv/lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1093
 xmlcharrefreplace_errors	venv/lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1085
 xor	venv/lib/python3.6/enum.py	/^from operator import or_ as _or_, and_ as _and_, xor, neg$/;"	kind:namespace	line:4

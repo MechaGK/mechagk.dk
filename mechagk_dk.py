@@ -23,32 +23,11 @@ def games(game=None):
     games = json.loads(games_file.read())
 
     if game is None:
-        games_list = []
-
-        game_data = {}
-        for key, value in games.items():
-            game_data = value
-            value["shortName"] = key
-            games_list.append(game_data)
-
-        chunks = []
-        current_chunk = []
-        for i in range(len(games_list)):
-            current_chunk.append(games_list[i])
-
-            if i % 2 == 1:
-                chunks.append(current_chunk)
-                current_chunk = []
-
-        if len(current_chunk) > 0:
-            chunks.append(current_chunk)
-
-        return render_template('games.html', games=chunks)
+        return render_template('games.html', games=games)
     else:
-        if game in games:
-            game_data = games[game]
-            game_data['shortName'] = game
+        game_data = [g for g in games if g["shortName"] == game][0]
 
+        if game is not None:
             page_file = open(f"descriptions/{game}.md", 'r')
             game_data['description'] = page_file.read()
 

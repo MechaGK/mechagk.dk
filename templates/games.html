@@ -8,9 +8,8 @@
                 <h1>Games</h1>
             </div>
 
-            {% for chunk in games %}
-            <div class="row">
-                {% for game in chunk %}
+            <div id="games-container">
+                {% for game in games %}
                 <div class="col-sm-6 game-panel">
                     <div class="thumbnail shadow-z-1">
                         <a href="{{ url_for('games', game=game['shortName']) }}"><img alt="{{ 'Image of ' ~ game['name'] }}"
@@ -27,7 +26,6 @@
                 </div>
                 {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 {% endblock %}

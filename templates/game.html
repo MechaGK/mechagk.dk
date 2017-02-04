@@ -26,9 +26,9 @@
             <nav>
                 <ul class="pager">
                     {% for game in games %}
-                        <li {% if game == game_data['shortName'] %}class="active"{% endif %}>
-                            <a href="{{ url_for('games', game=game) }}">{{ games[game]["name"] }}
-                            {% if game == game_data['shortName'] %}<span class="sr-only">(current)</span>{% endif %}</a>
+                        <li {% if game['shortName'] == game_data['shortName'] %}class="active"{% endif %}>
+                            <a href="{{ url_for('games', game=game) }}">{{ game["name"] }}
+                            {% if game['shortName'] == game_data['shortName'] %}<span class="sr-only">(current)</span>{% endif %}</a>
                         </li>
                     {% endfor %}
                 </ul>

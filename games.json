@@ -1,5 +1,6 @@
-{
-  "space-rocket-up": {
+[
+  {
+    "shortName": "space-rocket-up",
     "id": 20150701,
     "name": "Space Rocket: UP",
     "tagline": "Fly higher, score higher!",
@@ -9,7 +10,8 @@
     "buttonLink": "http://gamejolt.com/games/space-rocket-up/80051",
     "imagePath": "space-rocket-up.png"
   },
-  "circle-shooter": {
+  {
+    "shortName": "circle-shooter",
     "id": 20150401,
     "name": "Circle Shooter",
     "tagline": "Shoot circles, avoid circles",
@@ -33,7 +35,8 @@
       }
     ]
   },
-  "banana-clicker": {
+  {
+    "shortName": "banana-clicker",
     "id": 20131101,
     "name": "Banana Clicker",
     "tagline": "Click the bananas!",
@@ -44,7 +47,8 @@
     "imagePath": "banana-clicker.png",
     "pagePath": "#"
   },
-  "knight-time": {
+  {
+    "shortName": "knight-time",
     "id": 20130801,
     "name": "Knight Time",
     "tagline": "10 seconds to run right",
@@ -54,7 +58,8 @@
     "imagePath": "knight-time.png",
     "pagePath": "#"
   },
-  "shape-attack": {
+  {
+    "shortName": "shape-attack",
     "id": 20130401,
     "name": "Shape Attack",
     "tagline": "Shoot shapes, become shape!",
@@ -64,7 +69,8 @@
     "imagePath": "shape-attack.png",
     "pagePath": "#"
   },
-  "my-evil-lair": {
+  {
+    "shortName": "my-evil-lair",
     "id": 20121201,
     "name": "My Evil Lair",
     "tagline": "Protect the left side from white squares!",
@@ -74,7 +80,8 @@
     "imagePath": "my-evil-lair.png",
     "pagePath": "#"
   },
-  "league-of-fish": {
+  {
+    "shortName": "league-of-fish",
     "id": 20120801,
     "name": "League of Fish",
     "tagline": "Eat stuff",
@@ -84,4 +91,4 @@
     "imagePath": "league-of-fish.png",
     "pagePath": "#"
   }
-}
+]
