@@ -57,3 +57,7 @@ def games(game=None):
         else:
             return render_template(
                 'games.html', games=games, error='not-found')
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
