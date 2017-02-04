@@ -25,9 +25,10 @@ def games(game=None):
     if game is None:
         return render_template('games.html', games=games)
     else:
-        game_data = [g for g in games if g["shortName"] == game][0]
+        game_data = [g for g in games if g["shortName"] == game]
 
-        if game is not None:
+        if len(game_data) > 0:
+            game_data = game_data[0]
             page_file = open(f"descriptions/{game}.md", 'r')
             game_data['description'] = page_file.read()
 

@@ -27,7 +27,7 @@
                 <ul class="pager">
                     {% for game in games %}
                         <li {% if game['shortName'] == game_data['shortName'] %}class="active"{% endif %}>
-                            <a href="{{ url_for('games', game=game) }}">{{ game["name"] }}
+                            <a href="{{ url_for('games', game=game['shortName']) }}">{{ game["name"] }}
                             {% if game['shortName'] == game_data['shortName'] %}<span class="sr-only">(current)</span>{% endif %}</a>
                         </li>
                     {% endfor %}
