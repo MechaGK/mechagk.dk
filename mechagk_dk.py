@@ -1,9 +1,8 @@
 """Main module for my website"""
-from flask import Flask, render_template
-from flaskext.markdown import Markdown
+import markdown
+from flask import Flask, render_template, Markup
 import json
 app = Flask(__name__)
-Markdown(app)
 
 
 @app.route('/')
@@ -30,7 +29,9 @@ def games(game=None):
         if len(game_data) > 0:
             game_data = game_data[0]
             page_file = open(f"descriptions/{game}.md", 'r')
-            game_data['description'] = page_file.read()
+
+            description = markdown.markdown(page_file.read())
+            game_data['description'] = Markup(description)
 
             return render_template(
                 'game.html', games=games, game_data=game_data)

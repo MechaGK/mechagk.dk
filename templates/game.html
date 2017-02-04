@@ -8,8 +8,7 @@
             </h1>
             <div class="row">
                 <div class="col-md-6">
-                    {% filter markdown %}{{ game_data["description"] }}
-                    {% endfilter %}
+                    {{ game_data["description"] }}
                 </div>
                 <div class="col-md-6"><img class="game-image" src="{{ url_for('static', filename=('images/' + game_data['imagePath'])) }}"</div>
             </div>

@@ -1,5 +1,16 @@
 [
   {
+    "shortName": "muto-locus",
+    "id": 20161201,
+    "name": "Muto Locus",
+    "tagline": "Platformer with changing rooms",
+    "shortDescription": "Made for Ludum Dare 37 with the theme 'One room'. Change the room at the press of the button!",
+    "type": "jam",
+    "buttonText": "Play on Game Jolt",
+    "buttonLink": "http://gamejolt.com/games/space-rocket-up/80051",
+    "imagePath": "muto-locus.jpg"
+  },
+  {
     "shortName": "space-rocket-up",
     "id": 20150701,
     "name": "Space Rocket: UP",
