@@ -1,4 +1,4 @@
-from mechagk_dk import app
+from website import app
 
 if __name__ == "__main__":
     app.run()
