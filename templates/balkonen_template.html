@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Balkonen template</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/btstyle.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hide-print">
+
+    </div>
+    <div class="imageContainer">
+        <img src="{{ image_url }}" />
+    </div>
+    <div class="textContainer">
+        <span class="name">{{ name }}</span>
+        <!-- Indsætter 'Studieretning: ' foran -->
+        <span class="study">{{ study }}</span>
+        <span class="occupation">{{ occupation }}</span>
+        <!-- Indsætter 'Fun fact: ' foran -->
+        <span class="funFact">{{ fun_fact }}</span>
+    </div>
+</body>
+
+</html>

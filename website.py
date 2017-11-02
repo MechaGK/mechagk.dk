@@ -1,7 +1,8 @@
 """Main module for my website"""
 import markdown
-from flask import Flask, render_template, Markup
+from flask import Flask, render_template, Markup, request
 import json
+
 app = Flask(__name__)
 
 
@@ -38,6 +39,19 @@ def games(game=None):
         else:
             return render_template(
                 'games.html', games=games, error='not-found')
+
+
+@app.route('/balkonen-template', methods=['GET', 'POST'])
+def balkonen_template_get():
+    if request.method == 'POST':
+        data = request.get_json() or request.values
+        return render_template('balkonen_template.html',
+                               image_url=data.get('imageUrl',
+                                                  'https://geppel.dk/wp-content/uploads/2014/10/kaj-beanbag.jpg'),
+                               name=data.get('name', 'Kaj'), occupation=data.get('occupation', 'Underholdning'),
+                               study=data.get('study', 'Popcorn'), fun_fact=data.get('funFact', 'insert joke'))
+    else:
+        return render_template('balkonen_generator.html')
 
 
 if __name__ == "__main__":
