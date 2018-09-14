@@ -73,6 +73,7 @@ def view_balkonen_sheet(sheet_id):
                            study=sheet.study, fun_fact=sheet.fun_fact)
 
 
+@app.route('/balkonen/template/', methods=['GET'])
 @app.route('/balkonen-template/', methods=['GET', 'POST'])
 def balkonen_template_create():
     if request.method == 'POST':
