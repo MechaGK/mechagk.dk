@@ -14,7 +14,7 @@ app.config.update(dict(
 
 app.config.from_envvar('MECHAGK_DK_SETTINGS', silent=True)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{app.config['DATABASE']}"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:////home/mads/mechagk.dk.db"
 db = SQLAlchemy(app)
 
 
@@ -64,7 +64,7 @@ def games(game=None):
                 'games.html', games=games, error='not-found')
 
 
-@app.route('/balkonen-sheet/<sheet_id>', methods=['GET'])
+@app.route('/balkonen-sheet/<sheet_id>/', methods=['GET'])
 def view_balkonen_sheet(sheet_id):
     sheet = BalkonenSheet.query.filter_by(id=sheet_id).first_or_404()
     return render_template('balkonen_template.html',
@@ -73,7 +73,7 @@ def view_balkonen_sheet(sheet_id):
                            study=sheet.study, fun_fact=sheet.fun_fact)
 
 
-@app.route('/balkonen-template', methods=['GET', 'POST'])
+@app.route('/balkonen-template/', methods=['GET', 'POST'])
 def balkonen_template_create():
     if request.method == 'POST':
         data = request.get_json() or request.values
